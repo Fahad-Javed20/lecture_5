@@ -4,7 +4,25 @@ function App() {
 
   return (
     <>
-      <h1 className="bg-green-700">my name is Fahad</h1>
+    <div className="flex flex-wrap w-140 ">
+
+    <div className="bg-amber-100 h-50 w-70">
+
+      <div class="w-24 h-24 bg-blue-950 clip-path-star mx-auto justify-center items-center"></div>
+    </div>
+    <div className="bg-red-700 h-50 w-70"></div>
+    <div className="bg-blue-950 h-50 w-70"></div>
+    <div className="bg-amber-100 h-50 w-70">
+
+      <div class="w-24 h-24 bg-red-700 clip-path-star mx-auto justify-center items-center"></div>
+    </div>
+    </div>
+
+
+    
+
+
+
     </>
   )
 }
